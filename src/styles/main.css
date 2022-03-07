@@ -9,13 +9,13 @@ to check something
 */
 .box1 {
     width: 10px;
-    background-color: orange;
+    background-color: rgb(19, 17, 13);
     height: 5rem;
   }
   
   .box2 {
     width: 20px;
-    background-color: black;
+    background-color: rgb(194, 34, 34);
     height: 5rem;
   }
   
@@ -27,16 +27,16 @@ to check something
   
   @keyframes move {
     from {
-      transform: scaleY(-1);
+      transform: scaleX(-1);
     }
     to {
-      transform: scaleY(5);
+      transform: scaleX(5);
     }
   }
   .main-box {
-    display: grid;
+    display: f;
     grid-template-columns: repeat(30, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 2fr;
     height: 100vh;
   }
   
@@ -65,7 +65,7 @@ to check something
   }
   
   .item:nth-child(3) {
-    background-color: #ffe9c2;
+    background-color: #1f190e;
     height: 23vh;
     border-radius: 20% 0;
     background-color: #4e7151;
@@ -113,7 +113,7 @@ to check something
   }
   
   .item:nth-child(7) {
-    background-color: #ffc04d;
+    background-color: #110f0c;
     height: 9vh;
     border-radius: 20% 0;
     background-color: #5f806d;
