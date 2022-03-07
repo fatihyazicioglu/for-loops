@@ -27,10 +27,10 @@ to check something
   
   @keyframes move {
     from {
-      transform: scaleY(1);
+      transform: scaleY(-1);
     }
     to {
-      transform: scaleY(1.5);
+      transform: scaleY(5);
     }
   }
   .main-box {
